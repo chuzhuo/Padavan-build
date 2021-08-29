@@ -55,7 +55,7 @@ jobs:
           
     - name: Build Firmware
       env:
-        TNAME: R2100
+        TNAME: RM2100
         #TNAME: MI-R3G
       run: |
         cd /opt/rt-n56u/trunk
